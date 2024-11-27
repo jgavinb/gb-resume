@@ -16,7 +16,7 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-Inquisitive mind with a background in healthcare, fueled by a passion for uncovering patterns and making
+Inquisitive mind, fueled by a passion for uncovering patterns and making
 data-driven decisions. Leverages a diagnostic mindset and analytical rigor to navigate complex challenges,
 delivering actionable insights that enhance outcomes and drive strategic initiatives.
 ''')
