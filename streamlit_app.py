@@ -90,15 +90,15 @@ st.markdown('''
 
 txt('**Master of Science Candidate** (Analytics), *Institute for Advanced Analytics*, North Carolina State University',
 '2002-2006')
-st.markdown('''
-- Placeholder Text
-''')
+#st.markdown('''
+#- Eventually Add Summary or Projects Here
+#'')
 
 txt('**Bachelors of Science** (Business Administration), *North Carolina State University*, Raleigh, NC',
 '1998-2002')
-st.markdown('''
-- Cum Laude
-''')
+#st.markdown('''
+#- Eventually Add Summary Here
+#''')
 
 #####################
 st.markdown('''
