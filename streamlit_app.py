@@ -40,7 +40,7 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
       <li class="nav-item">
-        <a class="nav-link" href="#social-media">Social Media</a>
+        <a class="nav-link" href="#practicum">Practicum</a>
       <li class="nav-item">
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
