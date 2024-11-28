@@ -102,11 +102,11 @@ txt('**Bachelors of Science** (Business Administration), *North Carolina State U
 
 #####################
 st.markdown('''
-## Work Experience
+## Practicum
 ''')
 
-txt('**Practicum | Data Scientist, Communication Lead**, Artemis Health',
-'September 2024-Present')
+txt('**Data Scientist, Communication Lead**, Artemis Health',
+'Sep 2024-Present')
 st.markdown('''
 - Performing data engineering on a billion-row dataset in PostgreSQL, employing SQL optimizations, indexing, and partitioning for faster queries and efficient data handling.
 - Developing an ensemble of anomaly detection and unsupervised learning algorithms to identify, categorize, and score data quality issues within third-party vendor datasets.
@@ -114,8 +114,13 @@ st.markdown('''
 - Collaborating with stakeholders to define the scope of work including key quality indicators, aligning the project with broader data governance objectives and existing company infrastructure.
 ''')
 
+#####################
+st.markdown('''
+## Work Experience
+''')
+
 txt('**Application Security Intern**, Syneos Health, Morrisville, NC',
-'December 2022-January 2024')
+'Dec 2022-Jan 2024')
 st.markdown('''
 - Enhanced CI/CD pipeline efficiency by integrating code-scanning tools and providing guidance to development leads on tool implementation to proactively identify and mitigate security vulnerabilities early in the development process.
 - Improved decision-making and security practices by communicating code scan results to stakeholders and development teams, facilitating timely, data-driven actions to address critical findings and reduce potential risks.
@@ -123,7 +128,7 @@ st.markdown('''
 ''')
 
 txt('**Solution Architect Intern**, Syneos Health, Morrisville, NC',
-'May 2022-December 2022')
+'May 2022-Dec 2022')
 st.markdown('''
 - Increased data accuracy and visibility of project progress by developing and managing PowerBI dashboards with automated data pipelines, providing the Enterprise Architecture team and upper management with real-time metrics on data transfer from the existing Change Management Database to LeanIX.
 - Enhanced productivity and efficiency of the Architecture Review Board by creating key performance indicator dashboards with automated data pipelines, enabling Syneos Health to track performance and effectively identify areas for process improvement.
