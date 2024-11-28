@@ -89,13 +89,13 @@ st.markdown('''
 ''')
 
 txt('**Master of Science Candidate** (Analytics), *Institute for Advanced Analytics*, North Carolina State University',
-'2002-2006')
+'June 2024-Present')
 #st.markdown('''
 #- Eventually Add Summary or Projects Here
 #'')
 
 txt('**Bachelors of Science** (Business Administration), *North Carolina State University*, Raleigh, NC',
-'1998-2002')
+'2019-2023')
 #st.markdown('''
 #- Eventually Add Summary Here
 #''')
