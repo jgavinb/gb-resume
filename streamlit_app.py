@@ -49,7 +49,7 @@ st.markdown("""
         <a class="nav-link" href="#social-media">Social Media</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://gavchat.streamlit.app/" target="_blank">Resume Chatbot</a>
+        <a class="nav-link" href="https://gavchat.streamlit.app/" target="_blank">🤖 Resume Chatbot</a>
     </ul>
   </div>
 </nav>
