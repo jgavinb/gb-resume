@@ -57,7 +57,10 @@ st.markdown("""
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#social-media">Social Media</a>
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#social-media">Links</a>
       </li>
     </ul>
   </div>
@@ -160,7 +163,7 @@ txt3('Model deployment', '`streamlit`, `R Shiny`, `AWS`')
 
 #####################
 st.markdown('''
-## Social Media
+## Links
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/gavinbrumfield')
 txt2('GitHub', 'https://github.com/jgavinb/')
