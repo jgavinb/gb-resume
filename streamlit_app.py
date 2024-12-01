@@ -29,7 +29,7 @@ delivering actionable insights that enhance outcomes and drive strategic initiat
 
 st.markdown('## Chatbot', unsafe_allow_html=True)
 st.info('''
-*Check out my [Resume Chatbot](https://gavchat.streamlit.app/), utilizing Llama 3 API.*
+*Check out my [🤖 Resume Chatbot](https://gavchat.streamlit.app/), utilizing Llama 3 API.*
 ''')
 
 #####################
@@ -59,8 +59,6 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://gavchat.streamlit.app/" target="_blank">🤖 Resume Chatbot</a>
     </ul>
   </div>
 </nav>
