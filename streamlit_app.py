@@ -8,8 +8,7 @@ with open("style.css") as f:
 image = Image.open('dp.png')
 st.set_page_config(
     page_title="Gavin Brumfield",
-    page_icon= st.image(image),
-    layout="centered"
+    page_icon= image,
 )
 
 #####################
