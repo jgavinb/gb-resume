@@ -14,7 +14,8 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Gavin Brumfield, M.S. Candidate in Analytics
-##### *Resume* 
+##### *Resume*
+##### *Check out my [Chatbot](https://gavchat.streamlit.app/)*
 ''')
 
 image = Image.open('dp.png')
