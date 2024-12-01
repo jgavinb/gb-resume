@@ -18,7 +18,7 @@ st.write('''
 ''')
 
 image = Image.open('dp.png')
-st.image(image, use_column_width=True)
+st.image(image)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
