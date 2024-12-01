@@ -5,10 +5,9 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 # streamlit page config
-image = Image.open('dp.png')
 st.set_page_config(
     page_title="Gavin Brumfield",
-    page_icon= image,
+    page_icon= "📊",
 )
 
 #####################
