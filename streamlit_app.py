@@ -20,16 +20,16 @@ st.write('''
 image = Image.open('dp.png')
 st.image(image, width=150)
 
-st.markdown('## Chatbot', unsafe_allow_html=True)
-st.info('''
-*Check out my [Resume Chatbot](https://gavchat.streamlit.app/), utilizing Llama 3 API.*
-''')
-
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 Inquisitive mind, fueled by a passion for uncovering patterns and making
 data-driven decisions. Leverages a diagnostic mindset and analytical rigor to navigate complex challenges,
 delivering actionable insights that enhance outcomes and drive strategic initiatives.
+''')
+
+st.markdown('## Chatbot', unsafe_allow_html=True)
+st.info('''
+*Check out my [Resume Chatbot](https://gavchat.streamlit.app/), utilizing Llama 3 API.*
 ''')
 
 #####################
