@@ -15,11 +15,15 @@ with open("style.css") as f:
 st.write('''
 # Gavin Brumfield, M.S. Candidate in Analytics
 ##### *Resume*
-######### *Check out my [Resume Chatbot](https://gavchat.streamlit.app/), utilizing Llama 3 API.*
 ''')
 
 image = Image.open('dp.png')
 st.image(image, width=150)
+
+st.markdown('## Chatbot', unsafe_allow_html=True)
+st.info('''
+*Check out my [Resume Chatbot](https://gavchat.streamlit.app/), utilizing Llama 3 API.*
+''')
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
