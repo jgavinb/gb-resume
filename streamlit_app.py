@@ -155,9 +155,9 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `R`, `SQL`')
-txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`', '`dplyr`, `tidyr`')
-txt3('Data visualization', '`Tableau`', '`PowerBI`', '`matplotlib`, `seaborn`, `plotly`, `ggplot2`')
-txt3('Machine Learning', '`scikit-learn`', '`caret`')
+txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`, `dplyr`, `tidyr`')
+txt3('Data visualization', '`Tableau`, `PowerBI`, `matplotlib`, `seaborn`, `plotly`, `ggplot2`')
+txt3('Machine Learning', '`scikit-learn`, `caret`')
 txt3('Model deployment', '`streamlit`')
 
 #####################
