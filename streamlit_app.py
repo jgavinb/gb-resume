@@ -27,7 +27,7 @@ data-driven decisions. Leverages a diagnostic mindset and analytical rigor to na
 delivering actionable insights that enhance outcomes and drive strategic initiatives.
 ''')
 st.info('''
-TLDR? *Ask my* [🤖 Resume Chatbot](https://gavchat.streamlit.app/) *any questions you may have.*
+**TLDR?** *Ask my* [🤖 Resume Chatbot](https://gavchat.streamlit.app/) *any questions you may have.*
 ''')
 
 #####################
