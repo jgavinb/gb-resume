@@ -17,10 +17,22 @@ st.write('''
 ##### *Resume*
 ''')
 
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2, col3 = st.columns([2, 3, 2])
 with col2:
     image = Image.open('dp.png')
-    st.image(image, use_column_width=True)
+    st.markdown(
+        """
+        <style>
+        .profile-img {
+            max-width: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+        </style>
+        """, 
+        unsafe_allow_html=True
+    )
+    st.image(image, use_column_width=False, width=250, output_format="PNG", clamp=True)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''

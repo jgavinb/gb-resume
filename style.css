@@ -23,3 +23,14 @@ footer {
 header {
     visibility: hidden;
 }
+
+[data-testid="stImage"] {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    [data-testid="stImage"] img {
+        max-width: 250px !important;
+    }
+}
