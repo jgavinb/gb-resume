@@ -26,7 +26,7 @@ Inquisitive mind, fueled by a passion for uncovering patterns and making
 data-driven decisions. Leverages a diagnostic mindset and analytical rigor to navigate complex challenges,
 delivering actionable insights that enhance outcomes and drive strategic initiatives.
 ''')
-st.info('''**TLDR?** Ask my [🤖 Resume Chatbot](https://gavchat.streamlit.app/) any questions you may have.''')
+st.info('''**TLDR?** *Ask my* [🤖 Resume Chatbot](https://gavchat.streamlit.app/) *any questions you may have.*''')
 
 #####################
 # Navigation
