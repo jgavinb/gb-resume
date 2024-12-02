@@ -70,7 +70,10 @@ st.markdown("""
         <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#links">Links</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gavinbrumfield">LinkedIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.github.com/jgavinb/">GitHub</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://gavchat.streamlit.app/" target="_blank">Resume Chatbot</a>
