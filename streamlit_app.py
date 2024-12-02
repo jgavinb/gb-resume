@@ -106,7 +106,7 @@ txt('**Master of Science Candidate** (Analytics), *Institute for Advanced Analyt
 #- Eventually Add Summary or Projects Here
 #'')
 
-txt('**Bachelors of Science** (Business Administration), *North Carolina State University*, Raleigh, NC',
+txt('**Bachelor of Science** (Business Administration), *North Carolina State University*, Raleigh, NC',
 '2019-2023')
 #st.markdown('''
 #- Eventually Add Summary Here
