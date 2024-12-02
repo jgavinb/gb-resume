@@ -41,3 +41,17 @@ header {
         width: 200px !important;
     }
 }
+
+/* Hide mobile nav on desktop */
+@media (min-width: 768px) {
+    div[data-testid="stSelectbox"] {
+        display: none;
+    }
+}
+
+/* Hide desktop nav on mobile */
+@media (max-width: 767px) {
+    div[data-testid="column"] {
+        display: none;
+    }
+}
