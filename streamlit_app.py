@@ -27,7 +27,8 @@ data-driven decisions. Leverages a diagnostic mindset and analytical rigor to na
 delivering actionable insights that enhance outcomes and drive strategic initiatives.
 ''')
 st.info('''
-TLDR? *Ask my* [🤖 Resume Chatbot](https://gavchat.streamlit.app/) *any questions you may have. Developed utilizing Llama 3 (70B-8192).*
+TLDR? *Ask my* [🤖 Resume Chatbot](https://gavchat.streamlit.app/) *any questions you may have. 
+Developed utilizing Llama 3 (70B-8192).*
 ''')
 
 #####################
