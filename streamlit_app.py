@@ -17,8 +17,10 @@ st.write('''
 ##### *Resume*
 ''')
 
-image = Image.open('dp.png')
-st.image(image)
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    image = Image.open('dp.png')
+    st.image(image, use_column_width=True)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
