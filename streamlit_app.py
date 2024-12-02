@@ -45,52 +45,47 @@ st.info('''**TLDR?** *Ask my* [🤖 Resume Chatbot](https://gavchat.streamlit.ap
 #####################
 # Navigation
 
-# Desktop navigation
-def desktop_nav():
-    cols = st.columns(8)
-    with cols[0]:
-        st.markdown("[Home](/) ")
-    with cols[1]:
-        st.markdown("[Education](#education)")
-    with cols[2]:
-        st.markdown("[Practicum](#practicum)")
-    with cols[3]:
-        st.markdown("[Experience](#work-experience)")
-    with cols[4]:
-        st.markdown("[Skills](#skills)")
-    with cols[5]:
-        st.markdown("[LinkedIn](https://www.linkedin.com/in/gavinbrumfield)")
-    with cols[6]:
-        st.markdown("[GitHub](https://www.github.com/jgavinb/)")
-    with cols[7]:
-        st.markdown("[Chatbot](https://gavchat.streamlit.app/)")
+st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
-# Mobile navigation
-def mobile_nav():
-    nav_options = {
-        "Home": "/",
-        "Education": "#education",
-        "Practicum": "#practicum",
-        "Work Experience": "#work-experience",
-        "Skills": "#skills",
-        "LinkedIn": "https://www.linkedin.com/in/gavinbrumfield",
-        "GitHub": "https://www.github.com/jgavinb/",
-        "Resume Chatbot": "https://gavchat.streamlit.app/"
-    }
-    selection = st.selectbox("Navigation", options=list(nav_options.keys()))
-    if selection:
-        st.markdown(f"[{selection}]({nav_options[selection]})")
+st.markdown("""
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
+  <a class="navbar-brand" href="https://linkedin.com/in/gavinbrumfield" target="_blank">Gavin Brumfield</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#practicum">Practicum</a>
+      <li class="nav-item">
+        <a class="nav-link" href="#work-experience">Work Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/gavinbrumfield">LinkedIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.github.com/jgavinb/">GitHub</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://gavchat.streamlit.app/" target="_blank">Resume Chatbot</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-# Responsive navigation
-if st.session_state.get('mobile_nav', True):
-    mobile_nav()
-else:
-    desktop_nav()
-
-# Add toggle button
-if st.button("Toggle Navigation Style"):
-    st.session_state['mobile_nav'] = not st.session_state.get('mobile_nav', True)
-    st.experimental_rerun()
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+""", unsafe_allow_html=True)
 
 #####################
 # Custom function for printing text
