@@ -32,7 +32,7 @@ with col2:
         """, 
         unsafe_allow_html=True
     )
-    st.image(image, use_column_width=False, width=250, output_format="PNG", clamp=True)
+    st.image(image, use_container_width=False, width=250, output_format="PNG", clamp=True)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
